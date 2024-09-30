@@ -36,6 +36,10 @@
                                 Color="White"/>
                         </Image.Source>
                     </Image>
+                    <Button Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" 
+                            Text="Volver al menu " Clicked="Button_Clicked" 
+                            FontFamily="ProeLi" HeightRequest="20"
+                            TextColor="Black"  BackgroundColor="WhiteSmoke"/>
                 </Grid>
                 <Grid Margin="25,10,0,0" ColumnDefinitions=".9*,.1*">
                     <Border Padding="0" StrokeShape="RoundRectangle 8,8,8,8">
@@ -173,11 +177,7 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
-            <Button Text="Volver al menu principal" Clicked="Button_Clicked" 
-            BackgroundColor="LightCoral"/>
         </Grid>
-
-        
 
     </ScrollView>
 </ContentPage>
