@@ -173,10 +173,11 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
+            <Button Text="Volver al menu principal" Clicked="Button_Clicked" 
+            BackgroundColor="LightCoral"/>
         </Grid>
 
-        <Button Text="Volver al menu principal" Clicked="Button_Clicked" 
-            BackgroundColor="LightCoral"/>
+        
 
     </ScrollView>
 </ContentPage>
