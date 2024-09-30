@@ -57,6 +57,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Cars.ttf" />
+	  <None Remove="Resources\Fonts\MOTOB___.TTF" />
+	  <None Remove="Resources\Fonts\motorama.ttf" />
+	  <None Remove="Resources\Fonts\Proelium.otf" />
+	  <None Remove="Resources\Fonts\Starz 2.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
