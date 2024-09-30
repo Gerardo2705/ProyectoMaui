@@ -61,7 +61,7 @@
             <Grid Grid.Row="1">
                 <RoundRectangle BackgroundColor="#F2f1f6" CornerRadius="25,25,0,0"/>
                 <CollectionView ItemsSource="{Binding Stores}">
-                    
+
                     <CollectionView.ItemsLayout>
                         <LinearItemsLayout ItemSpacing="15" Orientation="Vertical"/>
                     </CollectionView.ItemsLayout>
@@ -120,7 +120,7 @@
                                         </HorizontalStackLayout>
                                     </Grid>
                                 </Grid>
-                                
+
                                 <Grid Grid.Row="1" Margin="0,10,0,0"
                                       Padding="10" ColumnDefinitions="*,*,*" RowDefinitions="*,*">
                                     <Label Grid.ColumnSpan="3"
@@ -129,7 +129,7 @@
                                            HorizontalTextAlignment="Start"
                                            Text="{Binding Name}"
                                            TextColor="Black"/>
-                                    
+
 
                                     <Label 
                                         Grid.Row="1"
@@ -147,18 +147,18 @@
                                             HorizontalTextAlignment="Center"
                                             Text="{Binding Stock}"
                                             TextColor="Black"
-                                            VerticalOptions="Center"/> 
-                                                                       
-                                       
+                                            VerticalOptions="Center"/>
+
+
                                     <HorizontalStackLayout
                                         Grid.Row="1"
                                         Grid.Column="2"
                                         Margin="0,10,0,0"
                                         HorizontalOptions="Center"
                                         VerticalOptions="Start">
-                                       
-                                       
-                                         <Label 
+
+
+                                        <Label 
                                            Margin="10,0,0,0"
                                            FontFamily="medium"
                                            HorizontalOptions="End"
@@ -166,14 +166,17 @@
                                            TextColor="Black"
                                            VerticalOptions="Start"/>
                                     </HorizontalStackLayout>
-                                          
+
                                 </Grid>
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
-        </Grid>     
-                       
+        </Grid>
+
+        <Button Text="Volver al menu principal" Clicked="Button_Clicked" 
+            BackgroundColor="LightCoral"/>
+
     </ScrollView>
 </ContentPage>

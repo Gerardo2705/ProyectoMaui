@@ -1,3 +1,4 @@
+using Login;
 using OnlyCars.Models;
 
 namespace OnlyCars.Views;
@@ -71,5 +72,10 @@ public partial class Motos : ContentPage
             Rating = 5
             },
         };
+    }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MenuPrincipal());
     }
 }

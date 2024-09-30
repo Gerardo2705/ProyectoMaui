@@ -1,3 +1,4 @@
+using Login;
 using OnlyCars.Models;
 
 namespace OnlyCars.Autos;
@@ -70,5 +71,10 @@ public partial class AutosOC : ContentPage
                 Rating = 5
             },
         };
+    }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MenuPrincipal());
     }
 }
