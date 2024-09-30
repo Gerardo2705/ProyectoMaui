@@ -49,6 +49,9 @@
 
                 <Label
                     Text="Venta de motos"
+                    FontFamily="ProeLi"
+                    FontAttributes="Bold"
+                    HeightRequest="30"
                     HorizontalOptions="Center"
                     TextColor="White"
                     VerticalOptions="Center"
@@ -71,6 +74,9 @@
 
                 <Label
                     Text="Venta de carros"
+                    FontFamily="ProeLi"
+                    FontAttributes="Bold"
+                    HeightRequest="30"
                     HorizontalOptions="Center"
                     TextColor="White"
                     VerticalOptions="Center"
@@ -93,6 +99,9 @@
 
                 <Label
                     Text="Eliminar usuario"
+                    FontFamily="ProeLi"
+                    FontAttributes="Bold"
+                    HeightRequest="30"
                     HorizontalOptions="Center"
                     TextColor="White"
                     VerticalOptions="Center"
