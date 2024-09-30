@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.MenuPrincipal"
+             Title="Bienvenidos"
+             BackgroundColor="Purple">
+    <ScrollView>
+    <VerticalStackLayout>
+            <!--<Button ImageSource="Carros.png"
+                    Clicked="Button_Clicked"
+                    Text="Autos en venta"
+                    BackgroundColor="Purple">
+                
+            </Button>
+            <Button ImageSource="Motos.png"
+                    Clicked="Button_Clicked_1"
+                    Text="Motos en venta "
+                    BackgroundColor="Purple">
+
+            </Button>
+            <Button ImageSource="Eliminar usuario.png"
+                    Clicked="Button_Clicked_2"
+                    Text="Eliminar Usuario"
+                    BackgroundColor="Purple"
+                    >
+
+            </Button>
+            <ImageButton
+                    Source="Carros.png"
+                
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    BackgroundColor="Transparent"
+                    Clicked="ImageButton_Clicked"/>-->
+
+            <Grid HorizontalOptions="Start">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <ImageButton
+                    Source="Motos.png"
+                    WidthRequest="400"
+                    HeightRequest="300"
+                    BackgroundColor="Transparent"
+                    Clicked="ImageButton_Clicked_1"
+                    Grid.Row="0"/>
+
+                <Label
+                    Text="Venta de motos"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    VerticalOptions="Center"
+                    Grid.Row="1"/>  
+            </Grid>
+
+            <Grid HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <ImageButton
+        Source="Carros.png"
+        WidthRequest="400"
+        HeightRequest="300"
+        BackgroundColor="Transparent"
+        Clicked="ImageButton_Clicked_2"
+        Grid.Row="0"/>
+
+                <Label
+        Text="Venta de motos"
+        HorizontalOptions="Center"
+                    TextColor="White"
+        VerticalOptions="Center"
+        Grid.Row="1"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <ImageButton
+        Source="Eliminar usuario.png"
+        WidthRequest="400"
+        HeightRequest="300"
+        BackgroundColor="Transparent"
+        Clicked="ImageButton_Clicked_3"
+        Grid.Row="0"/>
+
+                <Label
+        Text="Venta de motos"
+        HorizontalOptions="Center"
+                    TextColor="White"
+        VerticalOptions="Center"
+        Grid.Row="1"/>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

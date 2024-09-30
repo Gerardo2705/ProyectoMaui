@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.LoginPage"
+             BackgroundColor="Purple"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Padding="30">
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+
+                    <Grid BackgroundColor="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="170"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        <StackLayout>
+                            <Frame BackgroundColor="SkyBlue" HeightRequest="60" WidthRequest="60" CornerRadius="30" Padding="0" Margin="0,100,0,0" HorizontalOptions="Center">
+                                <Image Source="download.png" Aspect="AspectFill" Margin="0"/>
+
+                            </Frame>
+                        </StackLayout>
+
+                    </Grid>
+
+                    <!-- Usuario Entry -->
+                    <Frame CornerRadius="25" HasShadow="False" Padding="10" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                            <Image Source="user_icon.png" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" Margin="5"/>
+
+                            <Entry x:Name="UsernameEntry" Placeholder="Usuario..." PlaceholderColor="Gray"
+                               TextColor="Black"
+                               BackgroundColor="Transparent"
+                               HorizontalOptions="FillAndExpand"
+                               VerticalOptions="Center" />
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Contraseña Entry -->
+                    <Frame CornerRadius="25" HasShadow="False" Padding="10" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                            <Image Source="lock_icon.png" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" Margin="5"/>
+
+                            <Entry x:Name="PasswordEntry" Placeholder="Contraseña..." IsPassword="True" PlaceholderColor="Gray"
+                               TextColor="Black"
+                               BackgroundColor="Transparent"
+                               HorizontalOptions="FillAndExpand"
+                               VerticalOptions="Center"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Button Text="Iniciar sesion" TextColor="White"
+                        FontAttributes="Bold"
+                        BackgroundColor="Blue"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        HorizontalOptions="FillAndExpand"
+                       
+                        Clicked="Button_Clicked" />
+
+                    <Button Text="Registrarse ..." TextColor="White"
+                        FontAttributes="Bold"
+                        BackgroundColor="Red"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        HorizontalOptions="FillAndExpand"
+                       
+                        Clicked="Button_Clicked_1" />
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

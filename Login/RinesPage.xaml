@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.RinesPage"
+             Title="RinesPage">
+    <ScrollView>
+    <StackLayout Padding="10">
+        <CarouselView x:Name="carousel" ItemsSource="{Binding ImageCollection}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding}" Aspect="AspectFill"/>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <!-- Botones para navegar manualmente -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10">
+            <Button Text="Anterior" Clicked="Button_Clicked" />
+            <Button Text="Siguiente" Clicked="Button_Clicked_1" />
+            
+        </StackLayout>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
