@@ -62,6 +62,17 @@
 	  <None Remove="Resources\Fonts\motorama.ttf" />
 	  <None Remove="Resources\Fonts\Proelium.otf" />
 	  <None Remove="Resources\Fonts\Starz 2.ttf" />
+	  <None Remove="Resources\Images\bmw.png" />
+	  <None Remove="Resources\Images\dodge.png" />
+	  <None Remove="Resources\Images\dogg.png" />
+	  <None Remove="Resources\Images\duca.png" />
+	  <None Remove="Resources\Images\gtr.png" />
+	  <None Remove="Resources\Images\honda.png" />
+	  <None Remove="Resources\Images\kawa.png" />
+	  <None Remove="Resources\Images\logo.png" />
+	  <None Remove="Resources\Images\miata.png" />
+	  <None Remove="Resources\Images\silvia.png" />
+	  <None Remove="Resources\Images\yr.png" />
 	</ItemGroup>
 
 	<ItemGroup>
