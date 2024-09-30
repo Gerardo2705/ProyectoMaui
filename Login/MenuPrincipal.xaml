@@ -40,7 +40,7 @@
                 </Grid.RowDefinitions>
 
                 <ImageButton
-                    Source="Motos.png"
+                    Source="motos.png"
                     WidthRequest="400"
                     HeightRequest="300"
                     BackgroundColor="Transparent"
@@ -62,19 +62,19 @@
                 </Grid.RowDefinitions>
 
                 <ImageButton
-        Source="Carros.png"
-        WidthRequest="400"
-        HeightRequest="300"
-        BackgroundColor="Transparent"
-        Clicked="ImageButton_Clicked_2"
-        Grid.Row="0"/>
+                    Source="carros.png"
+                    WidthRequest="400"
+                    HeightRequest="300"
+                    BackgroundColor="Transparent"
+                    Clicked="ImageButton_Clicked_2"
+                    Grid.Row="0"/>
 
                 <Label
-        Text="Venta de motos"
-        HorizontalOptions="Center"
+                    Text="Venta de carros"
+                    HorizontalOptions="Center"
                     TextColor="White"
-        VerticalOptions="Center"
-        Grid.Row="1"/>
+                    VerticalOptions="Center"
+                    Grid.Row="1"/>
             </Grid>
 
             <Grid HorizontalOptions="End">
@@ -84,19 +84,19 @@
                 </Grid.RowDefinitions>
 
                 <ImageButton
-        Source="Eliminar usuario.png"
-        WidthRequest="400"
-        HeightRequest="300"
-        BackgroundColor="Transparent"
-        Clicked="ImageButton_Clicked_3"
-        Grid.Row="0"/>
+                    Source="eliminarusuario.png"
+                    WidthRequest="400"
+                    HeightRequest="300"
+                    BackgroundColor="Transparent"
+                    Clicked="ImageButton_Clicked_3"
+                    Grid.Row="0"/>
 
                 <Label
-        Text="Venta de motos"
-        HorizontalOptions="Center"
+                    Text="Eliminar usuario"
+                    HorizontalOptions="Center"
                     TextColor="White"
-        VerticalOptions="Center"
-        Grid.Row="1"/>
+                    VerticalOptions="Center"
+                    Grid.Row="1"/>
             </Grid>
 
         </VerticalStackLayout>
